@@ -8,14 +8,14 @@
 // 	}
 // }
 def buildParams = [
-    booleanParam(name: "run", defaultValue: true ,description: "run this job")
+    booleanParam(name: "run", defaultValue: true ,description: "run this job"),
+    string(name: "string", defaultValue: true ,description: "run this job")    
 ]
 
-def params = [
-      stringParam(name: "string", defaultValue:""  ,description: "run this job")
-    ]
 properties([
     parameters(buildParams),
-    parameters(params),
 ])
 
+// def params = [
+//       new StringParameterValue('FOO', foo),
+//     ]
