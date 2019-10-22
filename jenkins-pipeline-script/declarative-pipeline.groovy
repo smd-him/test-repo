@@ -9,7 +9,7 @@
 // }
 def buildParams = [
     booleanParam(name: "run", defaultValue: true ,description: "run this job"),
-    string(name: "string", defaultValue: true ,description: "run this job")    
+    string(name: "abc", defaultValue: "" ,description: "run this job")    
 ]
 
 properties([
