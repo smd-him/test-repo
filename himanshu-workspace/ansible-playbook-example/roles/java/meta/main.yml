@@ -1,0 +1,22 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: java
+  description: Java for Linux
+  min_ansible_version: 2.4
+  platforms:
+    - name: Ubuntu
+      versions:
+        - precise
+        - trusty
+        - xenial
+        - bionic
+  galaxy_tags:
+    - development
+    - system
+    - web
+    - java
+    - jdk
+    - openjdk
+    - oracle

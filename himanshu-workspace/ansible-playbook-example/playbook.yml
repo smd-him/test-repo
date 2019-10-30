@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  vars:
+    java_version: 1.10.0
+    dotnet_version: 3.5.1
+  roles:
+    #- sample
+    #- java
+    - utility
+  
